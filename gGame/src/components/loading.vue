@@ -18,7 +18,7 @@ import IMG_LIST from './imgList';
 import { CommonModule } from '../../store/modules/common';
 import Enemy from './enemy';
 import Bullet from './bullets';
-import { isWechat, isIOS, isApp, sleep } from '@ziroom/manticore/lib/utils';
+
 @Component({ name: 'Loading' })
 export default class Loading extends Vue {
   @Prop()

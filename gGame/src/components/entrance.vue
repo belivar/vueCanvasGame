@@ -56,7 +56,7 @@ import IMG_LIST from './imgList';
 import { CommonModule } from '../../store/modules/common';
 import { getUserInfoData } from '../../api';
 import { getDelayTimestamp } from '../../utils';
-import { getQueryString } from '@ziroom/manticore/lib/utils';
+
 import { JUMP_HOST } from '../../environment';
 @Component({ name: 'Entrance' })
 export default class Entrance extends Vue {
